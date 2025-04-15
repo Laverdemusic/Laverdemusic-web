@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legend of the Burning Eye</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #1B4D3E;
+      color: #F5F5F5;
+    }
+
+    header {
+      background-color: #2D2D2D;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem;
+      color: #FFB300;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-style: italic;
+      color: #F5F5F5;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #B22222;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: #F5F5F5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #FFB300;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.5rem;
+    }
+
+    .button {
+      background-color: #FFB300;
+      color: #1B4D3E;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1rem;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2D2D2D;
+      color: #888;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Legend of the Burning Eye</h1>
+    <p>A journey through fire, forest, and soul</p>
+  </header>
+  
+  <nav>
+    <a href="#music">Music</a>
+    <a href="#story">Story</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="music">
+    <h2>Music & Experience</h2>
+    <p>Step into the soundscape—where the embers of spirit meet the roots of the forest. Tracks coming soon.</p>
+    <button class="button">Listen Now</button>
+  </section>
+
+  <section id="story">
+    <h2>The Lore</h2>
+    <p>In the deep woods, a fire watches in silence. This is the story of the Burning Eye. Born from myth, kindled by soul—my music channels this eternal dance between light and shadow.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Visual Gallery</h2>
+    <p>Curated fragments from the forest realm—photographs, moments, sacred fire.</p>
+    <button class="button">Enter the Gallery</button>
+  </section>
+
+  <section id="contact">
+    <h2>Connect</h2>
+    <p>For bookings, collaborations, or to receive forest fire letters, reach out:</p>
+    <button class="button">Contact Me</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Legend of the Burning Eye. All rights reserved.</p>
+  </footer>
+</body>
+</html>
