@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #1b1b1b;
+  color: #f3e8d4;
+}
+
+.container {
+  padding: 40px;
+  max-width: 960px;
+  margin: auto;
+}
+
+header, section, footer {
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #ff0000; /* Red - fire */
+}
+
+h2 {
+  color: #ffd700; /* Gold - burning eye */
+}
+
+.photos img {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+}
