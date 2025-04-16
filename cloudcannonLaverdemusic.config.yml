@@ -1,0 +1,9 @@
+source: /
+collections_config: {}
+paths:
+  static: ''
+  uploads: uploads
+timezone: Australia/Sydney
+markdown:
+  engine: commonmark
+  options: {}
